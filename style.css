@@ -1,0 +1,43 @@
+
+body {
+    background-color: #f4f6fa;
+    color: #252b36;
+}
+
+.container {
+    max-width: 900px;
+}
+
+h1 {
+    color: #304878;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #dce2ec;
+}
+
+.form-label {
+    font-weight:600;
+}
+
+.form-control,
+.form-select {
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+@media (max-width: 575.98px) {
+    form {
+        padding: 16px;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+}
